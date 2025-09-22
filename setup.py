@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="bank_system",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Juninho Fonseca",
+    author_email="juninho.fonseca@gmail.com",
+    description="Sistema bancário para testes de deploy",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="my_github_repository_project_link"
